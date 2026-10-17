@@ -12,4 +12,4 @@ Link.propTypes  = {
      route: PropTypes.object
 }
 
-export default Link
+export default Link;

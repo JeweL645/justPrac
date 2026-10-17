@@ -5,6 +5,7 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 // import DaisyNav from './components/DaisyNav/DaisyNav'
 import NavBar from './components/NavBar/NavBar'
+import PriceOptions from './components/PriceOptions/PriceOptions'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
       {/* <DaisyNav></DaisyNav> */}
 
       <h1 className='text-3xl font-bold'>Welcome Back</h1>
+      <PriceOptions></PriceOptions>
 
 
 
